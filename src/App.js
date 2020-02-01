@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import CvItem from "./CvItem";
+import CvItem from "./component/CvItem";
 import { resumeItems } from "./component/Data";
 import PersonalPicture from "./component/Personal-Picture";
 import ResumeTitle from "./component/ResumeTitle";
