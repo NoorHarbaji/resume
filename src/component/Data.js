@@ -72,7 +72,7 @@ export const resumeItems = {
       alt: "Noor Harbaji"
     }
   ],
-  resumeHeader: [{ name: "Noor Harbaji" }],
+  resumeHeader: [{ title: "Noor Harbaji" }],
   addressInfo: [
     {
       streetName: "street name",

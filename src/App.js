@@ -20,7 +20,11 @@ export default function App() {
             <PersonalPicture {...item} />
           ))}
         </div>
-        <ResumeTitle title={resumeItems.resumeHeader.name} />
+        <div>
+          {resumeItems.resumeHeader.map(item => (
+            <ResumeTitle {...item} />
+          ))}
+        </div>
         <div className="adressDiv">
           {resumeItems.addressInfo.map(item => (
             <AddressInfo {...item} />
